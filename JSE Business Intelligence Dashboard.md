@@ -6,6 +6,19 @@ The dashboard is built using Power BI and utilizes data from Microsoft Excel to 
 The sample dataset used in creating this dashboard is sourced from AQSKILL, which contains financial data for JSE from 2012 to 2023.
 The data includes information on business expenses and sales for each month of the year, categorized by business unit (Advertising, Software, Hardware).
 
+# Data Transformation
+Before loading the data into Power BI, it was transformed using Power Query Editor to:
+- Clean and format the data
+- Remove any unnecessary columns or rows
+- Perform quality checks
+- Transform the data into a suitable format for analysis
+
+# Data Modeling
+After transforming the data, it was loaded into Power BI and modeled using DAX (Data Analysis Expressions) to create the following measures:
+- Total Revenue
+- Total Expenses
+- Total Profit
+
 # Key Features
 - Interactive Year Filter: Select a year from 2012 to 2023 to view the corresponding financial data.
 - Total Revenue, Expenses, and Profit: View the total revenue, expenses, and profit for the selected year.
